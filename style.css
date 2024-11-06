@@ -1,0 +1,231 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    
+}
+.nav{
+    display: flex;
+    align-items: center;
+    width: 1109px;
+height: 48px;
+margin: auto;
+margin-top: 57px;
+
+
+}
+.head{
+    width: 1440px;
+height: 800px;
+
+}
+.nav ul{
+    display: flex;
+    margin-left: 251px;
+    gap: 40px;
+    font-family: Hind Siliguri;
+font-size: 18px;
+font-weight: 400;
+
+}
+.but{
+    font-size: 18px;
+    font-weight: 400;
+    color: aliceblue;
+    background-color: #FF7235;
+    border-radius: 9px;
+text-align: center;
+padding-top: 11px;
+margin-left: 201px;
+    width: 160px;
+    height: 48px;
+}
+
+.big{
+    width: 1108.2px;
+height: 478px;
+margin-top: 106px;
+margin-left: 165px;
+}
+.hq{
+    width: 540px;
+height: 288px;
+font-size: 96px;
+font-weight: 700;
+
+
+}
+.bq{
+    background-color: #FF7235;
+    width: 225px;
+height:  75px;
+color: aliceblue;
+font-size: 24px;
+font-weight: 400;
+border-radius: 8px ;
+padding: 20px 60px;
+margin-top: 80px;
+
+}
+
+.nav ul  :hover{
+color: #FF7235;
+text-shadow: 1px 5px 7px;
+transition: 300ms;
+
+}
+.cf{
+    display: flex;
+}
+.ca{
+    margin-top: 106px;
+}
+.sec{
+    width: 1440px;
+height: 900px;
+
+
+}
+.ih{
+    background-image: url(Blob.png);
+    width: 1440px;
+    height: 712px;
+    background-color: #FF7235;
+    position: relative;
+}
+.ji{
+    position: absolute;
+    top: 87px;
+    left: 165px;
+}
+.qz{
+font-size: 96px;
+font-weight: 700;
+}
+.po{
+    width: 540px;
+height: 117px;
+
+font-size: 24px;
+font-weight: 400;
+
+
+
+}
+.qer{
+    margin-left: 165px;
+    margin-top: 150px;
+}
+.lq{
+    color: #FF7235;
+    text-shadow: 0px 0px 5px;
+    font-size: 24px;
+}
+
+.qer{
+    display: flex;
+    gap: 31px;
+    width: 1440px;
+height: 720px;
+
+
+}
+.ger{
+    display: flex;
+    width: 1440px;
+    height: 720px;
+    margin-left: 167px;
+    gap: 28px;
+}
+.fot{
+    background-image: url(Blob.png);
+    width: 1440px;
+height: 700px;
+background-color: #FF7235;
+
+
+}
+.hu{
+    font-family: Hind Siliguri;
+font-size: 72px;
+font-weight: 700;
+width: 920px;
+height: 88px;
+color: aliceblue;
+
+
+}
+select{
+    
+    width: 200px;
+height: 60px;
+gap: 10px;
+border-radius: 8px ;
+background-color: aliceblue;
+color: #FF7235;
+text-align: center;
+margin-top: 60px;
+font-size: 24px;
+font-weight: 400;
+margin-left: 290px;
+
+}
+.as{
+    flex-wrap: wrap;
+    margin-left: 340px;
+    padding-top: 120px;
+}
+.ha{
+    font-size: 72px;
+font-weight: 700;
+width: 920px;
+height: 88px;
+color: aliceblue;
+margin-left: 140px;
+}
+
+@keyframes vecs {
+
+    0%{
+        width: 40.32px;
+        border-radius: 100px;
+background-color: #FFB494;
+        height: 40.32px;
+left: 0px;
+    }
+    50%{
+        width: 40.32px;
+        height: 40.32px;
+        border-radius: 100px;
+background-color: #FFB494;
+left: 260px;
+
+    }
+    100%{
+        width: 40.32px;
+        height: 40.32px;
+        border-radius: 100px;
+background-color: #FFB494;
+right: 260px;
+    }
+ 
+
+    
+}
+
+.vec{
+    width: 40.32px;
+height: 40.32px;
+border-radius: 100px;
+background-color: #FFB494;
+animation-direction: alternate;
+    position: relative;
+    animation-name: vecs;
+    left: 0;
+margin-top: 20px;
+margin-left: 60px;
+animation-duration: 5s;
+animation-iteration-count: 100;
+ 
+}
